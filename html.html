@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котики</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcc99;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #333;
+        }
+
+        nav {
+            background-color: #ff9966;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .cat-section {
+            background-color: #fff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .cat-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #ffcc99;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на cat сайт!</h1>
+    </header>
+
+    <nav>
+        <a href="#about">О котиках</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+    <main>
+        <section id="about" class="cat-section">
+            <h2>О котиках</h2>
+            <p>Кошки — это  комочки счастья, которые радуют нас каждый день. Они известны своим независимым характером и игривым нравом.</p>
+        </section>
+
+        <section id="gallery" class="cat-section">
+            <h2>Галерея</h2>
+            <img src="123.jpg" alt="Котик">
+        </section>
+
+        <section id="contact" class="cat-section">
+            <h2>Контакты</h2>
+            <p>Если у вас есть вопросы, пишите на email: cats@example.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Сайт о котиках</p>
+    </footer>
+</body>
+</html>
